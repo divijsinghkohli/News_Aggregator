@@ -346,5 +346,3 @@ If you encounter any issues or have questions:
 - PHP and MySQL communities for excellent documentation
 
 ---
-
-**Happy News Aggregating! 📰✨**

@@ -1,8 +1,8 @@
-# 📰 News Aggregator
+# News Aggregator
 
 A modern, full-stack web application that aggregates news from various sources, allowing users to browse headlines by category, search for specific topics, and save their preferences.
 
-## 🚀 Features
+## Features
 
 - **Category-based News Browsing**: View headlines organized by Technology, Business, Sports, Science, Health, and Entertainment
 - **Advanced Search**: Search for news articles by keywords with sorting options
@@ -11,14 +11,14 @@ A modern, full-stack web application that aggregates news from various sources, 
 - **Real-time Updates**: AJAX-powered interface with no page reloads
 - **Mock Data Support**: Works with or without News API key for development
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Frontend**: HTML5, CSS3, JavaScript (ES6+), Bootstrap 5, Font Awesome
 - **Backend**: PHP 7.4+, MySQL 8.0+
 - **API**: News API (newsapi.org)
 - **Architecture**: RESTful API design with JSON responses
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before you begin, ensure you have the following installed:
 
@@ -31,7 +31,7 @@ Before you begin, ensure you have the following installed:
 - **Web Server** (Apache, Nginx, or PHP built-in server)
 - **News API Key** (optional, but recommended for real data)
 
-## 🔧 Installation & Setup
+## Installation & Setup
 
 ### 1. Clone or Download the Project
 
@@ -136,7 +136,7 @@ php -S localhost:8000
 2. Start Apache and MySQL services
 3. Visit `http://localhost/news-aggregator`
 
-## 🧪 Testing the Application
+## Testing the Application
 
 ### 1. Basic Functionality Test
 
@@ -178,7 +178,7 @@ SELECT COUNT(*) FROM preferences;
 SELECT COUNT(*) FROM saved_articles;
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 news-aggregator/
@@ -200,7 +200,7 @@ news-aggregator/
     └── seed.sql            # Sample data
 ```
 
-## 🔧 Configuration Options
+## Configuration Options
 
 ### Environment Settings
 
@@ -226,7 +226,7 @@ For production, set to `false`:
 define('APP_DEBUG', false); // Hides sensitive error information
 ```
 
-## 🌐 API Documentation
+## API Documentation
 
 ### Headlines Endpoint
 
@@ -269,7 +269,7 @@ POST Body:
 }
 ```
 
-## 🚨 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -306,7 +306,7 @@ POST Body:
 3. **API Rate Limiting**: Implement proper rate limiting for production
 4. **CDN**: Use CDN for static assets in production
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - **User Authentication**: Complete login/registration system
 - **Article Bookmarking**: Save articles for later reading
@@ -317,11 +317,11 @@ POST Body:
 - **Admin Dashboard**: Content management and analytics
 - **Multiple Languages**: Internationalization support
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -329,7 +329,7 @@ This project is open source and available under the [MIT License](LICENSE).
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📞 Support
+## Support
 
 If you encounter any issues or have questions:
 
@@ -338,7 +338,7 @@ If you encounter any issues or have questions:
 3. Check the browser console and PHP error logs
 4. Create an issue with detailed error information
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [News API](https://newsapi.org/) for providing news data
 - [Bootstrap](https://getbootstrap.com/) for responsive UI components

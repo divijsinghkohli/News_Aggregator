@@ -109,7 +109,7 @@ chmod -R 755 /path/to/news-aggregator
 chmod 644 config/config.php
 ```
 
-## 🚀 Running the Application
+## Running the Application
 
 ### Option 1: PHP Built-in Server (Recommended for Development)
 
